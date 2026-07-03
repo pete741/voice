@@ -1,0 +1,22 @@
+{
+  "name": "@clinicmastery/voice",
+  "version": "0.1.0",
+  "description": "Clinic Mastery brand voice: the coaching voice DNA distilled from real calls, the hard voice rules, and a mechanical enforcer (no em dashes, no hyphenated compounds, no agency speak). Shared across Clinic Mastery products so the voice never drifts.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "files": ["src"],
+  "sideEffects": false,
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
